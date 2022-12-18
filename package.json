@@ -1,0 +1,33 @@
+{
+  "name": "@analisedevalor/config-conventional",
+  "version": "1.0.0",
+  "description": "Shareable commitlint config enforcing conventional commits",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "deps": "dep-check",
+    "pkg": "pkg-check"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "commitlint-config",
+    "analisedevalor"
+  ],
+  "author": "Analise de valor <contato@analisedevalor.com.br>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=v14"
+  },
+  "devDependencies": {
+    "@commitlint/lint": "^17.3.0",
+    "@commitlint/utils": "^17.0.0"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0"
+  }
+}
